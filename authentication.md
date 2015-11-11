@@ -23,6 +23,6 @@ Key|Value Type|Description|Obligatory|Example
 ---|---|---|---|---
 SKey|Integer|SKey=APIKey, you can find APIKey and APISecret in ```config.php```|√|12450
 STime|Integer(10)|Unix Timestamp|√|1447253145
-SValue|String(32)|md5(SKey:APISecret:STime)|×|89809a5201b04c608ffa50d63892a2ca
+SValue|String(32)|md5(SKey:APISecret:STime)|√|89809a5201b04c608ffa50d63892a2ca
 
 * md5("12450" + "b40484df0ad979d8ba7708d24c301c38" + "1447253145") = "89809a5201b04c608ffa50d63892a2ca"
