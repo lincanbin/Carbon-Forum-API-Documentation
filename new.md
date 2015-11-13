@@ -9,7 +9,7 @@ POST
 ###  Parameters
 Key|Value Type|Description|Obligatory|Default value
 ---|---|---|---|---
-[API Authentication parameter](authentication.md)|||√|
+[API Authentication parameter](authentication.md#parameters)|||√|
 [User Authentication parameter](login.md#user-authentication-parameters)|||√|
 Title|String||√|
 Tag[]|String|If you need to add a number of tags, you can call this parameter repeatedly.|√|
