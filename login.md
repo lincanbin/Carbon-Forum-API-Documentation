@@ -1,7 +1,7 @@
 # Login
 
 ###  HTTP request address
-http://api.example.com/login
+`http://api.example.com/login`
 
 
 ### Menthod
@@ -10,6 +10,7 @@ POST
 
 ### Notice
 You must first request the verification code(`http://api.example.com/seccode.php`), and save the Cookie in the HTTP Header that be returned by the verification code. 
+
 This Cookie should be attached to the HTTP Header when you send the login parameters.
 
 
@@ -60,9 +61,10 @@ Error Code|Error Message
 
 
 ###  User Authentication Parameters
-When the API requires user authentication, you need to send the following parameters.
 Key|Value Type|Description|Obligatory|Example
 ---|---|---|---|---
 AuthUserID|int|UserID|√|173
 AuthUserExpirationTime|int(10)|The expiration time of these parameters. |√|1450030066
 AuthUserCode|String(32)|Access Token.|√|17cdbe3956a3b87428a080e5361f6f5e
+
+When the API requires user authentication, you need to send the following parameters.
