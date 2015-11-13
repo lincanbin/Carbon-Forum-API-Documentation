@@ -1,12 +1,16 @@
 # Create new topic
 
 ###  HTTP request address
-http://api.example.com/new
+`http://api.example.com/new`
+
+### Menthod
+POST
 
 ###  Parameters
 Key|Value Type|Description|Obligatory|Default value
 ---|---|---|---|---
-[Authentication parameter](authentication.md)|||√|
+[API Authentication parameter](authentication.md)|||√|
+[User Authentication parameter](login.md#user-authentication-parameters)|||√|
 Title|String||√|
 Tag[]|String|If you need to add a number of tags, you can call this parameter repeatedly.|√|
 Content|String||×|null
@@ -20,6 +24,7 @@ Success:
 	"TopicID": 12450
 }
 ```
+
 Fail:
 ```json
 {
