@@ -17,7 +17,7 @@ This Cookie should be attached to the HTTP Header when you send the login parame
 ### Parameters
 Key|Value Type|Description|Obligatory|Default value
 ---|---|---|---|---
-[API Authentication parameter](authentication.md)|||√|
+[API Authentication parameter](authentication.md#parameters)|||√|
 UserName|String|Username|√|
 Password|String|password|√|
 VerifyCode|int(4)||√|null
