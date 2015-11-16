@@ -9,8 +9,9 @@ GET
 ### Parameters
 Key|Value Type|Description|Obligatory|Default value
 ---|---|---|---|---
-{{page}}|int|Page number of the topic list|√|
-* The above parameters are constructed in URL.
+[API Authentication parameter](authentication.md#parameters)|||√|
+{{page}}|int|Page number of the topic list. This parameter should be constructed in the requests address. |√|
+
 
 ### HTTP Response
 Success:
