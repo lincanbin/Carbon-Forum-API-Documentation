@@ -19,7 +19,7 @@ Key|Value Type|Description|Obligatory|Default value
 ---|---|---|---|---
 [API Authentication parameter](authentication.md#parameters)|||√|
 UserName|String|Username|√|
-Password|String|password|√|
+Password|String(32)|md5(password)|√|
 VerifyCode|int(4)||√|null
 VerifyCode|int(2)|The validity period of the token acquired. Default value is 30 days. |×|30
 
