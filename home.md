@@ -1,7 +1,7 @@
 # Get Topic List
 
 ###  HTTP request address
-`http://api.example.com//page/{{page}}`
+`http://api.example.com/page/{{page}}`
 
 ### Menthod
 GET
