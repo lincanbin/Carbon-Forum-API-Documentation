@@ -21,7 +21,7 @@ Key|Value Type|Description|Obligatory|Default value
 UserName|String|Username|√|
 Email|String|Email|√|
 Password|String(32)|md5(password)|√|
-VerifyCode|int(4)||√|null
+VerifyCode|int(4)|Verification code|√|null
 
 
 ### HTTP Response
