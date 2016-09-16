@@ -1,6 +1,9 @@
 # Carbon Forum HTTP API Documentation
 Carbon Forum HTTP API Documentation.
 
+This wiki can be found at https://tflare.atlassian.net/ and selecting Carbon Forum or visiting this url https://tflare.atlassian.net/wiki/display/CF/Carbon+Forum+Home!
+
+
 ### Guide
 * [API Authentication description](authentication.md)
 * [User Authentication description](login.md)
