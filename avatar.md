@@ -1,4 +1,4 @@
-# Get the User Avater
+# Get the User Avatar
 
 ###  HTTP request address
 `http://api.example.com/upload/avatar/{{size}}/{{userID}}.png`
@@ -16,7 +16,7 @@ userID | string | user id | √
 ### HTTP Response
 Success:
 ```
-User avater response image data. Middle Image size is 48*48.
+User avatar response image data. Middle Image size is 48*48.
 Large Image size is 256*256.
 ```
 

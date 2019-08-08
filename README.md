@@ -19,4 +19,4 @@ Name|Description
 [/register](register.md)|Register
 [/reply](reply.md)|Reply to a topic
 [/t/{{topic_id}}-{{page}}](topic.md)|Get the topic information and replies
-[/avater](avater.md)|Avater
+[/avatar](avatar.md)|Avatar
